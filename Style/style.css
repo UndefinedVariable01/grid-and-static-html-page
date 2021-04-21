@@ -1,0 +1,193 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.6em;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.2em;
+    box-shadow: 0 0 10px #999999;
+}
+
+.nav li,
+.nav li a {
+    display: inline-block;
+}
+
+.nav li:hover {
+    background-color: #cfcfcf;
+}
+
+.nav li:last-child {
+    position: absolute;
+    left: 10px;
+}
+
+.nav li a {
+    padding: 10px 20px;
+}
+
+.nav li a span {
+    font-weight: bold;
+}
+
+.header-background {
+    position: relative;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.header-background h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-background h1 span {
+    background-color: #000;
+    font-weight: bold;
+    padding: 5px 15px;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 30px;
+}
+
+.pr-section-title {
+    font-size: 22px;
+    margin: 40px 0 60px 0;
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.project-card {
+    position: relative;
+}
+
+.project-card p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px 20px;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+.about {
+    margin: 70px 0 50px 0;
+}
+
+.ab-section-title {
+    font-size: 22px;
+    margin: 30px 0 35px 0;
+}
+
+.programmers {
+    margin: 20px 0 30px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+}
+
+.programmer-name {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #252525;
+}
+
+.programmer-speciality {
+    opacity: 0.7;
+    margin: 20px 0 10px 0;
+}
+
+.programmer-description {
+    margin: 0;
+}
+
+.programmer-card button {
+    width: 100%;
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    font-size: 16px;
+}
+
+.programmer-card button:hover {
+    background-color: #cfcfcf;
+}
+
+.contact {
+    margin: 90px 0 50px 0;
+}
+
+.ct-section-title {
+    font-size: 22px;
+    margin: 30px 0;
+}
+
+.contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #d4d4d4;
+    border: 1px solid #c7c7c7;
+    box-sizing: border-box;
+}
+
+.contact button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact button:hover {
+    background-color: #d1d1d1;
+    color: #000;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
